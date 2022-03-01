@@ -2,7 +2,7 @@
 
 
 # 1. Clone/Download the Repository
-$ git clone https://github.com/Syedmoizulhassanshah/NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listening-getpastevents-and-MongoDB.git
+$ git clone https://github.com/Syedmoizulhassanshah/-NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listening-getpastevents-and-MongoDB.git
 # 2. Install Dependencies:
 $ cd NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listening-getpastevents-and-MongoDB
 $ npm install or npm i
