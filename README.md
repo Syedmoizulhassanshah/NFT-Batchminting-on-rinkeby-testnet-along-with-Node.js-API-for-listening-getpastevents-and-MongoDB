@@ -1,9 +1,9 @@
 # NFT-Batchminting-on-rinkeby-testnet-along-with-a-Node.js-API-for-listening-all-the-events-and-updating-MongoDB-when-NFTs-are-transferred-to-new-Owners
 
 # 1. Clone/Download the Repository
-$ git clone repo link
+$ git clone https://github.com/Syedmoizulhassanshah/NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listening-all-the-events-and-MongoDB.git
 # 2. Install Dependencies:
-$ cd NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listing-all-the-events-and-MongoDB
+$ cd NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listening-all-the-events-and-MongoDB
 $ npm install or npm i
 # 3. Smart Contracts
 Deploy smart contract on rinkeby testnet from truffle or directly from remix
