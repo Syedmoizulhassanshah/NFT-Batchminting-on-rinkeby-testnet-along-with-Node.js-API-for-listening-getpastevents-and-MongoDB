@@ -1,18 +1,20 @@
-# NFT-Batchminting-on-rinkeby-testnet-along-with-a-Node.js-API-for-listening-all-the-events-and-updating-MongoDB-when-NFTs-are-transferred-to-new-Owners
+# NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listening-getpastevents-and-updating-MongoDB-when-NFTs-are-transferred-to-new-Owner
+
 
 # 1. Clone/Download the Repository
-$ git clone https://github.com/Syedmoizulhassanshah/NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listening-all-the-events-and-MongoDB.git
+$ git clone https://github.com/Syedmoizulhassanshah/NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listening-getpastevents-and-MongoDB.git
 # 2. Install Dependencies:
-$ cd NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listening-all-the-events-and-MongoDB
+$ cd NFT-Batchminting-on-rinkeby-testnet-along-with-Node.js-API-for-listening-getpastevents-and-MongoDB
 $ npm install or npm i
+
 # 3. Smart Contracts
 Deploy smart contract on rinkeby testnet from truffle or directly from remix
 
-# 4. EventListner Script
+# 4. EventListner Scripts
 
 here we have two scripts EventListner.js and Past_query Kindly use different mongodb connection for both scripts.
 
-->>script/EventListner.js
+->>script/Past_query.js
 
 1. replace your deploy nft contract address in all js files.
 
@@ -26,7 +28,7 @@ here we have two scripts EventListner.js and Past_query Kindly use different mon
 
 ->> With status of NFTs ( from Unallocated to Allocated ) and their owneraddresses (from previousOwner to NewOwner).
 
-**$ node ./scripts/EventListner.js**
 
 **$ node ./scripts/Past_query.js**
 
+**$ node ./scripts/api.js**
