@@ -14,7 +14,7 @@ here we have two scripts EventListner.js and Past_query Kindly use different mon
 
 ->>script/EventListner.js
 
-r1. eplace your deploy nft contract address in all js files.
+1. replace your deploy nft contract address in all js files.
 
 2. replace rinkeby provided CLIENT_URL. (infure url)
 
@@ -26,7 +26,7 @@ r1. eplace your deploy nft contract address in all js files.
 
 ->> With status of NFTs ( from Unallocated to Allocated ) and their owneraddresses (from previousOwner to NewOwner).
 
-$ node ./scripts/EventListner.js
+**$ node ./scripts/EventListner.js**
 
-$ node ./scripts/Past_query.js
+**$ node ./scripts/Past_query.js**
 
